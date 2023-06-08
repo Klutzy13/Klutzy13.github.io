@@ -8,7 +8,8 @@ h1 {
     font-family: Consolas;
     text-align: center;
     justify-content: center;
-    /*text-shadow: 1px 2px 2px rgb(253,79,128); */
+
+    text-shadow: 1px 2px 2px rgb(253,79,128); 
 }
 
 h2 {
@@ -66,4 +67,21 @@ li a:hover {
 .active {
     background-color: rgb(62,123,149);
 
+  }
+
+header img {
+    margin-right: 20px;
+    width: 200px;
+  }
+
+body {
+    border-left: 6px rgb(79,208,243) groove;
+    max-width: 800px;
+    margin: auto;
+    padding-left: 12px;
+  }
+
+header a{
+  text-decoration: none;
+  line-height: 150px;
   }
